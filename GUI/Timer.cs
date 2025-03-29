@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace StopWatchC_
+namespace StopWatchTimerProject
 {
     public partial class Timer_form : Form
     {

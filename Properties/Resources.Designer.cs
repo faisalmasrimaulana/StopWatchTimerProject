@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace StopWatchC_.Properties
+namespace StopWatchTimerProject.Properties
 {
 
 

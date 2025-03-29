@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace StopWatchC_
+namespace StopWatchTimerProject
 {
     public partial class MenuUtama : Form
     {
@@ -18,6 +18,7 @@ namespace StopWatchC_
         Timer_form timer;
 
         //2. buat prosedur closed stopWatch dan closed timer
+        //ini untuk menghilangkan objek stopwatch dan timer ketika form stopwatch dan timer di close sehingga tidak terjadi error
         void closedStopwatch(object sender, FormClosedEventArgs e)
         {
             stopwatch = null;

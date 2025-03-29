@@ -1,4 +1,4 @@
-﻿namespace StopWatchC_
+﻿namespace StopWatchTimerProject
 {
     partial class MenuUtama
     {
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuUtama));
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.menu_pilihan = new System.Windows.Forms.ToolStripMenuItem();
             this.subMenu_stopwatch = new System.Windows.Forms.ToolStripMenuItem();
@@ -68,7 +69,7 @@
             // 
             this.subMenu_timer.Name = "subMenu_timer";
             this.subMenu_timer.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.T)));
-            this.subMenu_timer.Size = new System.Drawing.Size(270, 34);
+            this.subMenu_timer.Size = new System.Drawing.Size(253, 34);
             this.subMenu_timer.Text = "&Timer";
             this.subMenu_timer.Click += new System.EventHandler(this.subMenu_timer_Click);
             // 
@@ -78,6 +79,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(948, 697);
             this.Controls.Add(this.menuStrip);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
