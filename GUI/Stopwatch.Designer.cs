@@ -1,4 +1,4 @@
-﻿namespace StopWatchC_
+﻿namespace StopWatchTimerProject
 {
     partial class StopWatch_form
     {

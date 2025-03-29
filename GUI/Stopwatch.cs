@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace StopWatchC_
+namespace StopWatchTimerProject
 {
     public partial class StopWatch_form: Form
     {
